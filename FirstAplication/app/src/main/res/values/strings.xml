@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FirstAplication</string>
+    <string name="todo">TODO</string>
+    <string name="logo">TODO</string>
+    <string name="nombreApp">TextView</string>
+    <string name="mi_primera_app">Mi Primera App</string>
+    <string name="btn1">Button</string>
+    <string name="btnstart">Inicio</string>
+    <string name="by_james_melo">By James Melo</string>
+    <string name="imagelogin">TODO</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="btn2">TODO</string>
+    <string name="btn3">TODO</string>
+    <string name="btnimg">TODO</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="iniciar_sesion">Iniciar sesion</string>
+    <string name="logoinicio">TODO</string>
+    <string name="obteniendo_ubicaci_n">obteniendo ubicación</string>
+</resources>
