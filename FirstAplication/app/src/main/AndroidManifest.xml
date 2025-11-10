@@ -16,16 +16,16 @@
         android:theme="@style/Theme.FirstAplication"
         tools:targetApi="31">
         <activity
-            android:name=".LocalizationActivity"
+            android:name=".RegistrousuarioActivity"
             android:exported="false" />
         <activity
-            android:name=".CarritoActivity"
+            android:name=".CarActivity"
             android:exported="false" />
         <activity
             android:name=".SplashActivity"
             android:exported="false" />
         <activity
-            android:name=".LogingActivity"
+            android:name=".LoginActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

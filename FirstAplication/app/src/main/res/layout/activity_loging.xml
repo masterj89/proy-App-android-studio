@@ -2,17 +2,18 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#7ed957"
     android:id="@+id/login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LogingActivity">
+    android:background="#F6F4F1"
+    tools:context=".LoginActivity">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:contentDescription="@string/imagelogin"
+        android:alpha="0.2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -25,85 +26,86 @@
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
         android:autofillHints=""
         android:ems="10"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+        tools:ignore="LabelFor,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteY="294dp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/e_mail"
-        android:textColor="#546E7A"
+        android:textColor="#D0CECE"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
         android:text="@string/password"
-        android:textColor="@color/white"
+        android:textColor="#D0CECEFF"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
         tools:ignore="TextContrastCheck" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="240dp"
         android:autofillHints=""
         android:ems="10"
         android:inputType="textPassword"
         android:minHeight="48dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <Button
+        android:id="@+id/iniciosesion_btn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="52dp"
+        android:backgroundTint="#9CCC65"
+        android:text="@string/iniciar_sesion"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+        app:layout_constraintVertical_bias="0.109" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/crearsesion_btn"
         android:layout_width="150dp"
         android:layout_height="75dp"
-        android:layout_marginStart="56dp"
-        android:text="@string/iniciar_sesion"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
-        app:layout_constraintVertical_bias="0.163" />
-
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="150dp"
-        android:layout_height="75dp"
-        android:layout_marginEnd="56dp"
+        android:layout_marginEnd="52dp"
+        android:backgroundTint="#9CCC65"
         android:text="@string/registrarse"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
-        app:layout_constraintVertical_bias="0.163" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.109" />
 
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="92dp"
+        android:backgroundTint="#FFFFFF"
         android:contentDescription="@string/btnimg"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -117,15 +119,15 @@
         android:id="@+id/imageButton2"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginTop="144dp"
+        android:backgroundTint="@color/white"
         android:contentDescription="@string/btn3"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toStartOf="@+id/imageButton3"
-        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
         app:srcCompat="@drawable/logointagram"
-        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck,DuplicateSpeakableTextCheck" />
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck,DuplicateSpeakableTextCheck"
+        tools:layout_editor_absoluteY="620dp" />
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -133,6 +135,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="96dp"
+        android:backgroundTint="@color/white"
         android:contentDescription="@string/btn2"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"

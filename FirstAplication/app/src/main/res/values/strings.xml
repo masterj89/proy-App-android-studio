@@ -17,4 +17,13 @@
     <string name="iniciar_sesion">Iniciar sesion</string>
     <string name="logoinicio">TODO</string>
     <string name="obteniendo_ubicaci_n">obteniendo ubicación</string>
+    <string name="all">TODO</string>
+    <string name="usuario">Nombre de Usuario</string>
+    <string name="email">E-Mail</string>
+    <string name="contrasena">Clave</string>
+    <string name="confirmarclave">Confirmar clave</string>
+    <string name="alls">TODO</string>
+    <string name="registrado">Registrar</string>
+    <string name="registrando">Registrate</string>
+    <string name="registrate_es_facil_y_rapido">Registrate, es facil y rapido!</string>
 </resources>

@@ -44,7 +44,19 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.play.services.location)
     implementation(libs.slices.core)
+    implementation(libs.androidx.vectordrawable.animated)
+    //..app/build.gradle
+    implementation(libs.gson)
+    implementation(libs.picasso)
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+    implementation(libs.converter.scalars)
+    implementation(libs.design)
+    implementation(libs.cardview.v7)
+    implementation(libs.recyclerview.v7)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
 }
