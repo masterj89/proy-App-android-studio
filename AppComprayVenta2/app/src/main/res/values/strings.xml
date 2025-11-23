@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">App Compra y Venta</string>
+
+    <string name="Item_inicio">Inicio</string>
+    <string name="Item_Chat">Chat</string>
+    <string name="Item_Vender">Vender</string>
+    <string name="Item_Mis_Anuncios">Mis Anuncios</string>
+    <string name="Item_Cuenta">cuenta</string>
+
+    <string name="TituloRL">Titulo</string>
+
+    <string name="Ingresar_email">Ingresar Email</string>
+    <string name="Ingresar_google">Ingresar con Google</string>
+
+
+    <string name="Txt_login">Login de usuario</string>
+    <string name="Et_email">Email</string>
+    <string name="Et_password">Password</string>
+    <string name="Btn_ingresar">Ingresar</string>
+    <string name="Txt_no_cuenta">¿No tienes una cuenta?</string>
+    <string name="Txt_registrarme">REGISTRARME</string>
+
+    <string name="Txt_registro">Registro de usuario</string>
+    <string name="Et_r_password">Repetir password</string>
+    <string name="Btn_registro">Registrar</string>
+
+    <!--Perfil de usuario-->
+    <string name="Txt_perfil">Perfil de usuario</string>
+    <string name="Txt_informacion">Información</string>
+    <string name="Txt_nombres">Nombres: </string>
+    <string name="Tv_nombres">nombres completos</string>
+    <string name="Txt_email">Email: </string>
+    <string name="Tv_email">email@dominio.com</string>
+    <string name="Txt_nacimiento">Fecha de nacimiento: </string>
+    <string name="Tv_nacimiento">dd/mm/aaaa</string>
+    <string name="Txt_miembro">Miembro desde: </string>
+    <string name="Tv_miembro">dd/mm/aaaa</string>
+    <string name="Txt_telefono">Telefono: </string>
+    <string name="Tv_telefono">999999999</string>
+    <string name="Txt_estado_cuenta">Estado de cuenta: </string>
+    <string name="Tv_estado_cuenta">No verificado</string>
+
+    <string name="Txt_opciones">Opciones</string>
+    <string name="Btn_editar_perfil">Editar perfil</string>
+    <string name="Btn_cerrar_sesion">Cerrar sesión</string>
+
+    <!--editar perfil-->
+    <string name="Txt_editar_perfil">Editar perfil</string>
+    <string name="Et_nombres">Nombres completos</string>
+    <string name="Et_fecha_nacimiento">Fecha de nacimiento</string>
+    <string name="Et_telefono">Telefono</string>
+    <string name="cod_telefono">+00</string>
+    <string name="Btn_actualizar">Actualizar</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

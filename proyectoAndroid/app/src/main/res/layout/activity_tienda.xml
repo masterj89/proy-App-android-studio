@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/verdeapp"
+    tools:context=".tienda_Activity">
+
+        <LinearLayout
+            android:layout_width="414dp"
+            android:layout_height="734dp"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints,UselessLeaf,VisualLintBounds">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="381dp"
+                android:layout_height="80dp"
+                android:layout_margin="15dp"
+                android:padding="15dp"
+                tools:ignore="VisualLintBounds">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/busqueda_icon"
+                        tools:ignore="ContentDescription" />
+
+                    <EditText
+                        android:id="@+id/editTextText"
+                        android:layout_width="300dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0"
+                        android:background="@null"
+                        android:ems="10"
+                        android:hint="Busqueda"
+                        android:inputType="text"
+                        tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck,TextContrastCheck" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/lista_productos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
